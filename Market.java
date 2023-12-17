@@ -1,6 +1,9 @@
 public class Market {
-    public static void main(String[] args) {
-
+    private String name;
+    int num;
+    Market(String name, int num){
+    this.name = name;
+    this.num = num;
     }
 }
 
